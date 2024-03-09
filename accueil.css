@@ -1,0 +1,260 @@
+.desktop-4-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #007330;
+    width: 1440px;
+    height: 85px;
+  }
+  .acceuil,
+  .contact,
+  .inscription,
+  .propos,
+  .vnements {
+    position: relative;
+    display: inline-block;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .acceuil {
+    width: 58px;
+    font-weight: 800;
+    color: var(--color-chocolate);
+  }
+  .contact,
+  .inscription,
+  .propos,
+  .vnements {
+    width: 92px;
+  }
+  .contact,
+  .inscription,
+  .propos {
+    width: 77px;
+  }
+  .contact,
+  .propos {
+    width: 58px;
+  }
+  .propos {
+    width: 65px;
+    font-size: var(--font-size-smi);
+  }
+  .acceuil-parent {
+    position: absolute;
+    top: 17px;
+    left: calc(50% - 71px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 40px;
+  }
+
+  .acceuil-parent li a {
+    color: var(--White, #fff);
+    font-family: Poppins, sans-serif;
+    text-decoration: none; 
+  }
+  .acceuil-parent li a:hover {
+    color: #FCD980; 
+  }
+  
+  .acceuil-parent li a:active {
+    color: #FDE4A6; 
+  }
+
+  .frame-parent,
+  .group-6-2 {
+    position: absolute;
+    height: 56.4px;
+  }
+  .group-6-2 {
+    top: 0;
+    left: 0;
+    width: 128px;
+    object-fit: cover;
+  }
+  .frame-parent {
+    top: 15px;
+    left: calc(50% - 623px);
+    width: 878px;
+    text-align: left;
+    font-size: var(--font-size-mini);
+  }
+  .desktop-4-item {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 1440px;
+    height: 877px;
+    object-fit: cover;
+  }
+  .desktop-4-inner {
+    position: absolute;
+    top: 768px;
+    left: 630px;
+    border-radius: var(--br-3xs);
+    background-color: var(--dark-blue-jeans);
+    width: 180px;
+    height: 49px;
+  }
+  .commende-ton-ticket {
+    top: 739px;
+    left: 599px;
+    line-height: 120%;
+    width: 248px;
+  }
+  .commende-ton-ticket,
+  .commender,
+  .cote-divoire,
+  .nigeria {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   /* .commender {
+    top: 784px;
+    left: 657px;
+    line-height: 120%;
+    width: 126px;
+  } */
+  .cote-divoire,
+  .nigeria {
+    top: 631px;
+    left: 296px;
+    font-size: var(--font-size-21xl);
+    font-weight: 500;
+    width: 248px;
+  }
+  .nigeria {
+    left: 902px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 150px;
+    left: 470px;
+    border-radius: 20px;
+    background-color: rgba(69, 77, 210, 0.2);
+    width: 501px;
+    height: 201px;
+  }
+  .image-icon {
+    position: absolute;
+    top: 0;
+    left: 92px;
+    width: 65px;
+    height: 77px;
+    object-fit: cover;
+  }
+  .sunday-21-january {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+  }
+  .comtent {
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .day,
+  .div {
+    align-self: stretch;
+    position: relative;
+  }
+  .div {
+    font-weight: 500;
+  }
+  .day {
+    font-size: var(--caption-regular-size);
+    color: var(--color-gray-100);
+  }
+  .time {
+    width: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div1 {
+    flex: 1;
+    position: relative;
+    line-height: 19px;
+    font-weight: 500;
+  }
+  .time1 {
+    width: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .minutes {
+    position: relative;
+    font-size: var(--caption-regular-size);
+    color: var(--color-gray-100);
+    text-align: left;
+  }
+  .text,
+  .time3 {
+    display: flex;
+    justify-content: center;
+  }
+  .time3 {
+    width: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 8px;
+    font-size: var(--heading-h3-size);
+  }
+  .content,
+  .image-parent {
+    position: absolute;
+    width: 248px;
+  }
+  .content {
+    top: 99px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px 0;
+  }
+  .image-parent {
+    top: 154px;
+    left: 596px;
+    height: 171px;
+  }
+  .county-icons,
+  .county-icons1 {
+    position: absolute;
+    top: 410px;
+    left: 934px;
+    width: 184px;
+    height: 184px;
+    overflow: hidden;
+  }
+  .county-icons1 {
+    left: 328px;
+  }
+  .desktop-4 {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    height: 962px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--body-regular-size);
+    color: var(--white);
+    font-family: var(--caption-regular);
+  }
+  
