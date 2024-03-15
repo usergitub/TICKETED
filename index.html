@@ -1,93 +1,75 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <title>TICKETED</title>
 
-    <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-    />
-  </head>
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <div class="desktop-3">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
 
-      <div class="desktop-3-child"></div>
+</head>
+
+<body class="desktop-3">
+
+  <img class="illustration-icon" alt="" src="./assets/images/illustration.svg" />
+
+  <header class="header">
+
+    <nav class="nav">
+      <img class="group-6-2" alt="" src="./assets/images/logo.png" />
 
       <ul class="acceuil-parent">
-        <li class="acceuil"><a href="accueil.html">Accueil</a></li>
-        <li class="vnements"><a href="evenements.html">Evenements</a></li>
-        <li class="inscription"><a href="#formations">Inscription</a></li>
-        <li class="acceuil"><a href="#communaute">Contact</a></li>
-        <li class="propos"><a href="#inscription">A propos</a></li>
+        <li class="acceuil"><a href="#contact">Accueil</a></li>
+        <li class="vnements"><a href="#contact">Evenements</a></li>
+        <li class="inscription"><a href="#contact">Inscription</a></li>
+        <li class="acceuil"><a href="#contact">Contact</a></li>
+        <li class="propos"><a href="#Apropos">A propos</a></li>
       </ul>
 
-      <div class="connectez-vous-pour-accder">
-        Connectez-vous pour accéder aux meilleures offres de billets
-      </div>
+    </nav>
 
-       <img
-        class="illustration-icon"
-        alt=""
-        src="illustration (1).svg"
-      /> 
+  </header>
 
-      <img class="group-6-2" alt="" src="Group 6 2.png" />
+  <section>
 
-      <button class="connexion-wrapper">
-        <a href="evenements.html">
-          <li class="Connexion">Connexion</li>
-        </a>
-      </button>
-      
-      <div class="text-field">
-        <div class="text-field1">
-          <div class="label-parent">
-            <div class="connexion">Email</div>
-            <div class="input-text">Exp: John.doe@gmail.com</div>
-          </div>
-        </div>
-      </div>
-      <div class="text-field2">
-        <div class="text-field1">
-          <div class="label-parent">
-            <div class="connexion">Kata Sandi</div>
-            <div class="input-text">**********</div>
-          </div>
-
-          <!--img class="eye-icon" alt="" src="eye-icon.svg" /-->
-
-        </div>
-        <div class="supporting-text">
-          Minimal 8 karakter dengan kombinasi huruf besar dan kecil
-        </div>
-      </div>
-
-      <div class="conectoi-pour-ne">
-        conectoi pour ne pas manquer le macth conectoi pour ne pas manquer le
-        macth manquer
-      </div>
-
+    <div class="txt-hero">
+      Connectez-vous pour accéder aux meilleures offres de billets
     </div>
 
-  </body>
+    <form id="loginForm" class="test" data-gtm-form-interact-id="0">
+
+      <label for="email">Adresse email</label> <br>
+      <input type="email" id="email" name="email" placeholder="votre@email.com" 
+      data-gtm-form-interact-field-id="0" required>
+
+      <br>
+      <br>
+
+      <label for="password">Mot de passe</label><br>
+      <input type="password" id="password" name="password" placeholder="Votre mot de passe"
+        data-gtm-form-interact-field-id="1" required>
+      <br>
+      <br>
+
+      <input type="submit" value="Connexion">
+
+    </form>
+
+  </section>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
 
 </html>
-
-

@@ -1,37 +1,42 @@
-.desktop-5-child {
-    position: absolute;
-    top: 0;
-    left: 0;
+* {
+    margin: 0;
+    line-height: normal;
+}
+
+.header {
     background-color: #010012;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    width: 1440px;
-    height: 85px;
-  }
-  .acceuil2 {
-    width: 58px;
-  }
-  .acceuil2,
-  .inscription2,
-  .propos2,
-  .vnements2 {
-    position: relative;
-    display: inline-block;
-    height: 21px;
-    flex-shrink: 0;
-  }
-  .vnements2 {
-    width: 92px;
-    color: var(--color-chocolate);
-  }
-  .inscription2,
-  .propos2 {
-    width: 77px;
-  }
-  .propos2 {
-    width: 65px;
-    font-size: var(--font-size-smi);
-  }
-  .acceuil-parent {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+
+}
+
+.group-6-2 {
+    align-self: stretch;
+    display: flex;
+    gap: 3px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 144%;
+    margin: auto 0;
+}
+
+.acceuil-parent {
     position: absolute;
     top: 17px;
     left: calc(50% - 71px);
@@ -40,65 +45,58 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 0 40px;
-  }
+    list-style-type: none;
+}
 
-  .acceuil-parent li a {
+.acceuil-parent li a {
     color: var(--White, #fff);
     font-family: Poppins, sans-serif;
-    text-decoration: none; 
-  }
-  .acceuil-parent li a:hover {
-    color: #FCD980; 
-  }
-  
-  .acceuil-parent li a:active {
-    color: #FDE4A6; 
-  }
+    text-decoration: none;
+}
 
-  .frame-group,
-  .group-6-22 {
-    position: absolute;
-    height: 56.4px;
-  }
-  .group-6-22 {
-    top: 0;
-    left: 0;
-    width: 128px;
-    object-fit: cover;
-  }
-  .frame-group {
-    top: 15px;
-    left: calc(50% - 623px);
-    width: 878px;
-  }
-  .desktop-5-item {
+.acceuil-parent li a:hover {
+    color: #FCD980;
+}
+
+.acceuil-parent li a:active {
+    color: #FDE4A6;
+}
+
+/**--------------**/
+
+.desktop-5-item {
     position: absolute;
     top: 85px;
     left: 0;
     width: 1440px;
     height: 877px;
     object-fit: cover;
-  }
-  .filter,
-  .latest-matches,
-  .view-all {
+}
+
+.filter,
+.latest-matches,
+.view-all {
     position: absolute;
     top: 5px;
     font-size: var(--sub-headline-2-size);
     color: var(--white);
-  }
-  .latest-matches {
+}
+
+.latest-matches {
     left: 0;
     font-weight: 500;
-  }
-  .filter,
-  .view-all {
+}
+
+.filter,
+.view-all {
     left: 1016px;
-  }
-  .filter {
+}
+
+.filter {
     left: 306px;
-  }
-  .group-child {
+}
+
+.group-child {
     position: absolute;
     top: 0;
     left: 0;
@@ -106,96 +104,113 @@
     background-color: var(--white);
     width: 1080px;
     height: 100px;
-  }
-  .arrow-right-12-2,
-  .clock-8-2 {
+}
+
+.arrow-right-12-2,
+.clock-8-2 {
     position: absolute;
     top: 41px;
     left: 1014px;
     width: 24px;
     height: 24px;
     overflow: hidden;
-  }
-  .clock-8-2 {
+}
+
+.clock-8-2 {
     top: 39px;
     left: 501px;
-  }
-  .commander,
-  .ebimp,
-  .pm {
+}
+
+.commander,
+.ebimp,
+.pm {
     position: absolute;
     top: 42px;
     left: 537px;
-  }
-  .commander,
-  .ebimp {
+}
+
+.commander,
+.ebimp {
     left: 679px;
-  }
-  .commander {
+}
+
+.commander {
     left: 916px;
-  }
-  .map-pin-9-2 {
+  
+}
+
+.map-pin-9-2 {
     top: 39px;
     left: 643px;
     width: 24px;
     height: 24px;
     overflow: hidden;
-  }
-  .group-item,
-  .map-pin-9-2,
-  .vs {
+}
+
+.group-item,
+.map-pin-9-2,
+.vs {
     position: absolute;
-  }
-  .vs {
+}
+
+.vs {
     top: 14px;
     left: 57px;
     font-size: var(--font-size-smi);
     color: var(--white);
-  }
-  .group-item {
+}
+
+.group-item {
     top: 0;
     left: 0;
     border-radius: 50%;
     width: 43px;
     height: 43px;
     object-fit: cover;
-  }
-  .group-inner,
-  .ny-yorks,
-  .ny-yorks1 {
+}
+
+.group-inner,
+.ny-yorks,
+.ny-yorks1 {
     position: absolute;
     top: 12px;
     left: 62px;
-  }
-  .group-inner,
-  .ny-yorks1 {
+}
+
+.group-inner,
+.ny-yorks1 {
     left: 291px;
-  }
-  .group-inner {
+    width: 360px;
+}
+
+.group-inner {
     top: 0;
     left: 229px;
     border-radius: 50%;
     width: 43px;
     height: 43px;
     object-fit: cover;
-  }
-  .line-div,
-  .vs-parent {
+}
+
+.line-div,
+.vs-parent {
     position: absolute;
     top: 28px;
     left: 44px;
     width: 360px;
     height: 43px;
-  }
-  .line-div {
+}
+
+.line-div {
     top: 17px;
     left: 221px;
     border-right: 1px solid var(--color-gainsboro-100);
     box-sizing: border-box;
     width: 1px;
     height: 69px;
-  }
-  .ellipse-div {
+}
+
+.ellipse-div {
     position: absolute;
     top: 38px;
     left: 209px;
@@ -203,76 +218,87 @@
     background-color: var(--white);
     width: 24px;
     height: 24px;
-  }
-  .vs1 {
+}
+
+.vs1 {
     position: absolute;
     top: 43px;
     left: 212px;
     font-size: var(--body-regular-size);
     font-weight: 500;
     color: var(--color-darkslategray-100);
-  }
-  .favorite-24px-1-icon {
+}
+
+.favorite-24px-1-icon {
     position: absolute;
     top: 36px;
     left: 835px;
     width: 32px;
     height: 32px;
     overflow: hidden;
-  }
-  .rectangle-group,
-  .rectangle-parent {
+}
+
+.rectangle-group,
+.rectangle-parent {
     position: absolute;
     top: 64px;
     left: 0;
     width: 1080px;
     height: 100px;
-  }
-  .rectangle-group {
+}
+
+.rectangle-group {
     top: 177px;
-  }
-  .group-child20,
-  .group-div,
-  .rectangle-container,
-  .rectangle-parent1 {
+}
+
+.group-child20,
+.group-div,
+.rectangle-container,
+.rectangle-parent1 {
     position: absolute;
     top: 290px;
     left: 0;
     width: 1080px;
     height: 100px;
-  }
-  .group-child20,
-  .group-div,
-  .rectangle-parent1 {
+}
+
+.group-child20,
+.group-div,
+.rectangle-parent1 {
     top: 403px;
-  }
-  .group-child20,
-  .rectangle-parent1 {
+}
+
+.group-child20,
+.rectangle-parent1 {
     top: 516px;
-  }
-  .group-child20 {
+}
+
+.group-child20 {
     top: 0;
     border-radius: var(--br-11xs);
     background-color: var(--white);
     width: 91px;
     height: 32px;
-  }
-  .chevron-down-16-1 {
+}
+
+.chevron-down-16-1 {
     position: absolute;
     top: 11px;
     left: 69px;
     width: 13px;
     height: 13px;
     overflow: hidden;
-  }
-  .football {
+}
+
+.football {
     position: absolute;
     top: 9px;
     left: 11px;
-  }
-  .rectangle-parent2,
-  .rectangle-parent3,
-  .rectangle-parent4 {
+}
+
+.rectangle-parent2,
+.rectangle-parent3,
+.rectangle-parent4 {
     position: absolute;
     top: 0;
     left: 384px;
@@ -280,15 +306,18 @@
     height: 32px;
     font-size: var(--font-size-smi);
     color: var(--color-darkgray-100);
-  }
-  .rectangle-parent3,
-  .rectangle-parent4 {
+}
+
+.rectangle-parent3,
+.rectangle-parent4 {
     left: 484px;
-  }
-  .rectangle-parent4 {
+}
+
+.rectangle-parent4 {
     left: 584px;
-  }
-  .latest-matches-parent {
+}
+
+.latest-matches-parent {
     position: absolute;
     top: 216px;
     left: 180px;
@@ -297,16 +326,4 @@
     font-size: var(--font-size-mid);
     color: var(--color-darkgray-200);
     font-family: var(--font-roboto);
-  }
-  .desktop-5 {
-    width: 100%;
-    position: relative;
-    background-color: var(--white);
-    height: 962px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--font-size-mini);
-    color: var(--white);
-    font-family: var(--caption-regular);
-  }
-  
+}

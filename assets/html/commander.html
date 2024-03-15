@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TICKETED</title>
+
+  <link rel="stylesheet" href="../css/global.css" />
+  <link rel="stylesheet" href="../css/commander.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+
+<body class="desktop-6">
+
+  <header class="header">
+
+    <nav class="nav">
+      <img class="group-6-2" alt="" src="../images/logo.png" />
+
+      <ul class="acceuil-parent">
+        <li class="acceuil"><a href="/accueil.html">Accueil</a></li>
+        <li class="vnements"><a href="../html/evenements.html">Evenements</a></li>
+        <li class="inscription"><a href="#formations">Inscription</a></li>
+        <li class="acceuil"><a href="#communaute">Contact</a></li>
+        <li class="propos"><a href="#inscription">A propos</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="frame-parent2">
+    <div class="frame-parent3">
+      <div class="frame-parent4">
+        <div class="frame-parent3">
+          <div class="mode-de-paiement-group">
+            <div class="tarif-ticket">Mode De Paiement</div>
+            <div class="frame-child"></div>
+          </div>
+
+          <div class="payez-avec-parent">
+            <div class="payez-avec">Payez avec&nbsp;:</div>
+            <div class="card-parent">
+                <div class="card2">
+                    <input type="radio" id="wave" name="modePaiement" class="mode-paiement-input">
+                    <label for="wave" class="card3">WAVE</label>
+                </div>
+                <div class="bank">
+                    <input type="radio" id="orangeMoney" name="modePaiement" class="mode-paiement-input">
+                    <label for="orangeMoney" class="card3">Orange Money</label>
+                </div>
+                <div class="bank">
+                    <input type="radio" id="mtnMoney" name="modePaiement" class="mode-paiement-input">
+                    <label for="mtnMoney" class="card3">MTN Money</label>
+                </div>
+                <div class="bank">
+                    <input type="radio" id="moovMoney" name="modePaiement" class="mode-paiement-input">
+                    <label for="moovMoney" class="card3">MOOV Money</label>
+                </div>
+            </div>
+        </div>
+        
+
+          <form class="numero-de-tel-parent" id="payment-form">
+            <label class="numero-de-tel">Numero de Paiement</label>
+            <input type="tel" class="tite_1" placeholder="Entrez votre numéro de Paiement" pattern="[0-9]+"
+              title="Veuillez entrer uniquement des chiffres">
+          </form>
+
+        </div>
+        <div class="frame-parent6">
+          <div class="tarif-ticket-parent">
+            <div class="tarif-ticket">Tarif Ticket</div>
+            <div class="frame-item"></div>
+          </div>
+          <div class="final-parent">
+            <div class="payez-avec">Final :</div>
+            <div class="frame-parent7">
+              <div class="bank-parent">
+                <div class="bank">
+                  <img class="card-child" alt="" src="./public/frame-3.svg">
+                  <div class="card3">GP : 25 000fr CFA</div>
+                </div>
+                <div class="bank">
+                  <img class="card-child" alt="" src="./public/frame-3.svg">
+                  <div class="card3">VIP : 50 000fr CFA</div>
+                </div>
+              </div>
+              <div class="bank-group">
+                <div class="bank">
+                  <img class="card-child" alt="" src="./public/frame-3.svg">
+                  <div class="card3">VVIP : 75 000fr CFA</div>
+                </div>
+                <div class="bank">
+                  <img class="card-child" alt="" src="./public/frame-3.svg">
+                  <div class="card3">VVIP + : 100 000fr CFA</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="frame-parent6" id="payment-form">
+
+        <div class="tarif-ticket-parent">
+          <div class="coordonnes">Coordonnées</div>
+          <div class="frame-child"></div>
+        </div>
+
+        <div class="frame-parent9">
+          <section class="frame-parent10">
+            <div class="payez-avec-parent">
+              <div class="numero-de-tel">Nom</div>
+              <input type="name" class="tite" placeholder="Entrez votre nom" pattern="[A-Za-zÀ-ÿ\s'-]+"
+                title="Seuls les caractères alphabétiques et les espaces sont autorisés">
+            </div>
+            <div class="payez-avec-parent">
+              <div class="numero-de-tel">Prenom</div>
+              <input type="forename" class="tite" placeholder="Entrez votre prénom" pattern="[A-Za-zÀ-ÿ\s'-]+"
+                title="Seuls les caractères alphabétiques et les espaces sont autorisés">
+            </div>
+          </section>
+
+          <section class="frame-parent10">
+            <div class="payez-avec-parent">
+              <div class="numero-de-tel">Numero de Tel</div>
+              <input type="tel" class="tite" placeholder="Entrez votre numéro de téléphone" pattern="[0-9]+"
+                title="Veuillez entrer uniquement des chiffres">
+            </div>
+            <div class="payez-avec-parent">
+              <div class="numero-de-tel">Email</div>
+              <input type="email" class="tite" placeholder="Entrez votre adresse e-mail">
+            </div>
+          </section>
+        </div>
+      </form>
+
+      <div class="frame-parent13" >
+
+        <div class="frame-wrapper">
+          <input type="radio" id="gp" name="categorie" class="gp-input">
+          <label for="gp" class="gp-wrapper">GP</label>
+        </div>
+        <div class="frame-wrapper">
+          <input type="radio" id="vip" name="categorie" class="vip-input">
+          <label for="vip" class="vip-wrapper">VIP</label>
+        </div>
+        <div class="frame-wrapper">
+          <input type="radio" id="vvip" name="categorie" class="vvip-input">
+          <label for="vvip" class="vvip-wrapper">VVIP</label>
+        </div>
+        <div class="frame-wrapper">
+          <input type="radio" id="vvip1" name="categorie" class="vvip1-input">
+          <label for="vvip1" class="vvip1-wrapper">VVIP +</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="pay-parent">
+      <form action="pay.html">
+        <input type="submit" value="Payer" class="pay">
+      </form>
+      <div class="your-personal-data">
+        Your personal data will be used to process your order, support your experience throughout this website, and
+        for other purposes described in our privacy policy.
+      </div>
+    </div>
+
+  </div>
+
+  <script src="../js/commander.js"></script>
+</body>
+
+</html>

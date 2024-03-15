@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TICKETED</title>
+
+  <link rel="stylesheet" href="../css/global.css" />
+  <link rel="stylesheet" href="../css/pay.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+
+</head>
+
+<body class="desktop-7">
+
+  <header class="header">
+
+    <nav class="nav">
+      <img class="group-6-2" alt="" src="../images/logo.png" />
+
+      <ul class="acceuil-parent">
+        <li class="acceuil"><a href="/accueil.html">Accueil</a></li>
+        <li class="vnements"><a href="../html/evenements.html">Evenements</a></li>
+        <li class="inscription"><a href="#Inscription">Inscription</a></li>
+        <li class="acceuil"><a href="#communaute">Contact</a></li>
+        <li class="propos"><a href="#inscription">A propos</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="rectangle-parent">
+    <div class="group-child"></div>
+    <div class="group-item"></div>
+    <img class="spot-ilustrations-icon" alt="" src="../images/Spot Ilustrations.svg">
+
+    <div class="receipt">
+      <div class="receipt-background"></div>
+      <div class="receipt-card">
+        <div class="header_2">
+          <img class="success-icon" alt="" src="../icone/Success Icon.svg">
+
+          <div class="succs-de-paiement">Succès de paiement !</div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="payment-details">
+          <div class="details-row">
+            <div class="numro-de-rfrences-parent">
+              <div class="numro-de-rfrences">Numéro de références</div>
+              <div class="div">000085752257</div>
+            </div>
+            <div class="numro-de-rfrences-parent" id="dateDiv">
+              <div class="numro-de-rfrences">Date</div>
+              <div class="div" id="dateValue">Mar 22, 2023</div>
+          </div>
+          <div class="numro-de-rfrences-parent" id="heureDiv">
+              <div class="numro-de-rfrences">Heure</div>
+              <div class="div" id="heureValue">07:80 AM</div>
+          </div>
+          
+            <div class="numro-de-rfrences-parent">
+              <div class="numro-de-rfrences">Mode de paiement</div>
+              <div class="div">Wave</div>
+            </div>
+          </div>
+          <div class="line1"></div>
+          <div class="numro-de-rfrences-parent">
+            <div class="numro-de-rfrences">Total</div>
+            <div class="fr-cfa">25 000 fr CFA</div>
+          </div>
+        </div>
+
+        <div class="line2"></div>
+
+        <form class="pdf-button">
+          <img class="vuesaxlinearimport-icon" alt="" src="../icone/import.svg">
+
+          <!--button class="obtenir-un-reu">Obtenir un reçu PDF</b-->
+          
+          <input class="pdf-button" type="submit" value="Obtenir un reçu PDF">
+
+        </from>
+
+      </div>
+      <div class="substract"></div>
+      <div class="substract1"></div>
+    </div>
+    <div class="thank-you-for">Thank You For Your Purchase</div>
+  </div>
+
+  <!-- Inclure le fichier JavaScript externe -->
+  <script src="../js/pay.js"></script>
+
+
+</body>
+
+</html>

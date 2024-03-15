@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  line-height: normal;
+}
+
+.desktop-3,
+.desktop-3 {
+  width: 100%;
+  position: relative;
+  background-color: #f26727;
+  height: 962px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--reg1-size);
+  color: var(--color-white);
+  font-family: var(--reg);
+}
+
+.illustration-icon {
+  position: absolute;
+  top: 49px;
+  left: 640px;
+  width: 799.9px;
+  height: 864.5px;
+  object-fit: cover;
+}
+
+.header {
+  background-color: #f26727;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+
+}
+
+.group-6-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 3px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 144%;
+  margin: auto 0;
+}
+
+.acceuil-parent {
+  position: absolute;
+  top: 17px;
+  left: calc(50% - 71px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 40px;
+  list-style-type: none;
+}
+
+.acceuil-parent li a {
+  color: var(--White, #fff);
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+}
+
+.acceuil-parent li a:hover {
+  color: #FCD980;
+}
+
+.acceuil-parent li a:active {
+  color: #FDE4A6;
+}
+
+.txt-hero {
+  position: absolute;
+  top: 359px;
+  left: 70px;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  width: 511px;
+}
+
+.test input[type="email"],
+.test input[type="password"] {
+  width: 480px;
+  /* Largeur des champs d'email et mot de passe */
+  height: 52px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.test {
+  position: absolute;
+  /* Positionnement du formulaire */
+  top: 570px;
+  left: 70px;
+}
+
+.test input[type="submit"] {
+  width: 240px;
+  /* Largeur du bouton de soumission */
+  height: 52px;
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* Ajout d'un curseur main au passage */
+}
+
+.test input[type="submit"]:hover {
+  background-color: #FCD980;
+  /* Couleur au survol */
+}
+
+.test input[type="submit"]:active {
+  background-color: #FDE4A6;
+  /* Couleur au clic */
+}
+
+.test:not(:placeholder-shown):valid {
+  border-color: green;
+}
+.tite:not(:placeholder-shown):invalid {
+  border-color: red;
+}

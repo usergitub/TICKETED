@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  line-height: normal;
+}
+
+.header {
+  background-color: #f26727;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.group-6-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 3px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 144%;
+  margin: auto 0;
+}
+
+.acceuil-parent {
+  position: absolute;
+  top: 17px;
+  left: calc(50% - 71px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 40px;
+  list-style-type: none;
+}
+
+.acceuil-parent li a {
+  color: var(--White, #fff);
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+}
+
+.acceuil-parent li a:hover {
+  color: #fcd980;
+}
+
+.acceuil-parent li a:active {
+  color: #fde4a6;
+}
+
+.frame-child {
+  width: 477px;
+  position: relative;
+  border-top: 1px solid var(--stroke);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+.mode-de-paiement-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+  font-size: var(--sub-headline-1-size);
+}
+
+.card-child,
+.payez-avec {
+  position: relative;
+  height: 15px;
+}
+
+.payez-avec {
+  width: 118px;
+  line-height: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.card-child {
+  width: 15px;
+}
+
+.card3 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.bank,
+.card2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 8px;
+}
+
+.card-parent,
+.payez-avec-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.card-parent {
+  flex-direction: row;
+  gap: 0 19px;
+  font-size: var(--reg-size);
+  color: var(--stroke);
+}
+
+.payez-avec-parent {
+  flex-direction: column;
+  gap: 16px 0;
+}
+
+.numero-de-tel {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.numero-de-tel-parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.wrapper {
+  width: 325px;
+  border-radius: var(--br-9xs);
+  border: 1.5px solid var(--stroke);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-base);
+  font-size: var(--reg-size);
+  color: var(--stroke);
+}
+
+.numero-de-tel-parent {
+  width: 322px;
+  flex-direction: column;
+  gap: 16px 0;
+}
+
+.tarif-ticket {
+  width: 259px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.frame-item {
+  width: 401px;
+  position: relative;
+  border-top: 1px solid var(--stroke);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+.bank-group,
+.bank-parent,
+.frame-parent7,
+.tarif-ticket-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+}
+
+.bank-group,
+.bank-parent,
+.frame-parent7 {
+  flex-direction: row;
+  gap: 0 48px;
+}
+
+.bank-group,
+.frame-parent7 {
+  gap: 0 34px;
+}
+
+.frame-parent7 {
+  flex-direction: column;
+  gap: 22px 0;
+  font-size: var(--reg-size);
+  color: var(--stroke);
+}
+
+.final-parent {
+  flex-direction: column;
+  gap: 16px 0;
+  font-size: var(--sub-headline-2-size);
+}
+
+.final-parent,
+.frame-parent4,
+.frame-parent6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frame-parent6 {
+  flex-direction: column;
+  gap: 36px 0;
+  font-size: var(--sub-headline-1-size);
+}
+
+.frame-parent4 {
+  flex-direction: row;
+  gap: 0 97px;
+}
+
+.coordonnes,
+.tite {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.coordonnes {
+  width: 207px;
+  letter-spacing: -0.02em;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.tite_1:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.tite_1:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+.tite_1 {
+  width: 322px;
+  border-radius: var(--br-9xs);
+  border: 1.5px solid var(--stroke);
+  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-base);
+  font-size: var(--reg-size);
+  color: var(--stroke);
+}
+
+.tite:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.tite:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+.tite {
+  width: 476px;
+  border-radius: var(--br-9xs);
+  border: 1.5px solid var(--stroke);
+  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-base);
+  font-size: var(--reg-size);
+  color: var(--stroke);
+}
+
+.frame-parent10,
+.frame-parent9,
+.tite-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tite-wrapper {
+  border-radius: var(--br-9xs);
+  border: 1.5px solid var(--stroke);
+  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-base);
+  font-size: var(--reg-size);
+  color: var(--stroke);
+}
+
+.frame-parent10,
+.frame-parent9 {
+  gap: 0 54px;
+}
+
+.frame-parent9 {
+  flex-direction: column;
+  gap: 35px 0;
+  font-size: var(--sub-headline-2-size);
+}
+
+.gp,
+.gp-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.gp {
+  width: 46px;
+  position: relative;
+  line-height: 12px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.gp-wrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--empty);
+
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-4xl);
+}
+
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.vip-wrapper,
+.vvip,
+.vvip1 {
+  display: flex;
+  align-items: center;
+}
+
+.vip-wrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--stroke);
+
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-4xl);
+}
+
+.vvip,
+.vvip1 {
+  width: 46px;
+  position: relative;
+  line-height: 12px;
+  font-weight: 500;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.vvip1 {
+  width: 53px;
+}
+
+.frame-parent13 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 18px;
+  color: var(--text-2);
+}
+
+.save-card-details-child {
+  width: 19px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1.5px solid var(--stroke);
+  box-sizing: border-box;
+  height: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.save-card-details1 {
+  position: relative;
+  line-height: 20px;
+}
+
+.save-card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0 16px;
+  color: var(--stroke);
+}
+
+.frame-parent12 {
+  font-size: var(--reg-size);
+}
+
+.frame-parent12,
+.frame-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px 0;
+}
+
+.pay-usd5828 {
+  position: relative;
+  line-height: 12px;
+}
+
+.pay {
+  width: 476px;
+  border-radius: var(--br-9xs);
+  background-color: var(--empty);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 193px;
+  box-sizing: border-box;
+}
+
+.your-personal-data {
+  width: 475px;
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+  color: var(--stroke);
+  display: inline-block;
+}
+
+.frame-parent2,
+.pay-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px 0;
+  font-size: var(--reg-size);
+  color: var(--text-2);
+}
+
+.frame-parent2 {
+  position: absolute;
+  top: 182px;
+  left: calc(50% - 608px);
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  width: 1132px;
+  height: 1194px;
+  align-items: center;
+  padding: 66px 0 0;
+  box-sizing: border-box;
+  gap: 110px 0;
+  font-size: var(--sub-headline-2-size);
+  color: var(--text);
+}
+
+.desktop-6 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 1561px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--caption-regular);
+}
+
+/* Style pour les boutons radio */
+.gp-input,
+.vip-input,
+.vvip-input,
+.vvip1-input {
+  display: none;
+  /* Masque les boutons radio */
+}
+
+/* Style pour les labels des boutons radio */
+.gp-wrapper,
+.vip-wrapper,
+.vvip-wrapper,
+.vvip1-wrapper {
+  cursor: pointer;
+  /* Permet de changer le curseur au survol */
+  padding: 10px 20px;
+  /* Ajuste le rembourrage pour le style */
+  border-radius: 5px;
+  /* Ajoute une bordure arrondie */
+  color: #777;
+  /* Couleur de texte gris par défaut */
+  background-color: #f5f5f5;
+  /* Couleur de fond grise par défaut */
+}
+
+/* Style pour les labels des boutons radio sélectionnés */
+.gp-input:checked+.gp-wrapper,
+.vip-input:checked+.vip-wrapper,
+.vvip-input:checked+.vvip-wrapper,
+.vvip1-input:checked+.vvip1-wrapper {
+  color: #fff;
+  /* Changement de la couleur du texte en blanc */
+  background-color: #f26727;
+  /* Changement de la couleur de fond en orange */
+}
+.label-style {
+  font-weight: normal;
+  color: #6c757d;
+}
+
+.label-style.selected {
+  font-weight: bold;
+  color: black;
+}
+
