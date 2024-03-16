@@ -1,0 +1,212 @@
+.sign-up-otp-child {
+  position: absolute;
+  top: 0;
+  left: 721px;
+  border-radius: var(--br-981xl) var(--br-8xs) var(--br-8xs) 0;
+  background-color: var(--color-gray-100);
+  width: 720px;
+  height: 962px;
+  display: none;
+}
+.sign-up-otp-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-chocolate);
+  width: 1440px;
+  height: 85px;
+}
+.acceuil,
+.inscription,
+.propos,
+.vnements {
+  width: 58px;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.inscription,
+.propos,
+.vnements {
+  width: 92px;
+}
+.inscription,
+.propos {
+  width: 77px;
+}
+.propos {
+  width: 65px;
+  font-size: var(--font-size-smi);
+}
+.acceuil-parent3 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 255px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    list-style-type: none;
+  }
+
+  .acceuil-parent3 li a {
+    color: var(--White, #fff);
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+  }
+  
+  .acceuil-parent3 li a:hover {
+    color: #FCD980;
+  }
+  
+  .acceuil-parent3 li a:active {
+    color: #FDE4A6;
+  }
+
+.sign-up-otp-inner {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 613px);
+  width: 510px;
+  height: 21px;
+}
+.frame-1-6,
+.group-6-4 {
+  position: absolute;
+  top: 355px;
+  left: 76px;
+  width: 573px;
+  height: 252px;
+  object-fit: cover;
+}
+.frame-1-6 {
+    top: 0px;
+    left: 276px;
+    width: 454.5px;
+    height: 454.5px;
+    object-fit: contain;
+}
+.verification {
+  top: 108px;
+  font-size: var(--font-size-21xl);
+}
+.cliquez-ici-si,
+.otp,
+.verification {
+  position: absolute;
+  left: 32px;
+}
+.otp {
+  top: 360px;
+  font-size: var(--font-size-21xl);
+}
+.cliquez-ici-si {
+  top: 564px;
+  font-weight: 500;
+  color: var(--color-crimson);
+}
+.b {
+  position: absolute;
+  top: 474px;
+  left: 512px;
+  font-size: var(--bold1-size);
+}
+.il-vous-suffit-container {
+  position: absolute;
+  top: 195px;
+  left: 32px;
+  display: inline-block;
+  width: 355px;
+}
+.otp-child {
+  position: absolute;
+  left: 0;
+  height: 80px;
+}
+.otp-child,
+.otp-inner,
+.otp-item {
+  top: 0;
+  border-radius: var(--br-6xl);
+  border: 4px solid var(--dark-blue-jeans);
+  box-sizing: border-box;
+  width: 80px;
+  overflow: hidden;
+}
+.otp-item {
+  position: absolute;
+  left: 112px;
+  height: 80px;
+}
+.otp-inner {
+  left: 224px;
+}
+.frame-div,
+.otp-inner,
+.otp1 {
+  position: absolute;
+  height: 80px;
+}
+.frame-div {
+  top: 0;
+  left: 336px;
+  border-radius: var(--br-6xl);
+  border: 4px solid var(--dark-blue-jeans);
+  box-sizing: border-box;
+  width: 80px;
+  overflow: hidden;
+}
+.otp1 {
+  top: 452px;
+  left: 32px;
+  width: 416px;
+}
+.confirmation {
+  position: absolute;
+  top: 9px;
+  left: 112px;
+}
+.cari-tiket-button {
+  position: absolute;
+  top: 658px;
+  left: calc(50% - 169px);
+  border-radius: var(--br-5xs);
+  background-color: var(--dark-blue-jeans);
+  width: 338px;
+  height: 48px;
+  overflow: hidden;
+  color: var(--white);
+}
+.sign-up-section {
+  position: absolute;
+  top: 65px;
+  left: 720px;
+  border-radius: var(--br-31xl) 0 0 var(--br-31xl);
+  background-color: var(--broken-white);
+  width: 720px;
+  height: 832px;
+  overflow: hidden;
+  font-size: var(--bold-size);
+  color: var(--dark-blue-jeans);
+  font-family: var(--bold);
+}
+.sign-up-otp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-chocolate);
+  height: 962px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--caption-regular);
+}
+.large-text {
+    font-size: 24px !important;
+    font-weight: bold;
+    text-align: center !important;
+  }
+  
+  

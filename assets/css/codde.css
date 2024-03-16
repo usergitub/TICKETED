@@ -1,0 +1,327 @@
+.sign-up-otp-child1 {
+    position: absolute;
+    top: 0;
+    left: 721px;
+    border-radius: var(--br-981xl) var(--br-8xs) var(--br-8xs) 0;
+    background-color: var(--color-gray-100);
+    width: 720px;
+    height: 962px;
+    display: none;
+  }
+  .sign-up-otp-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-chocolate);
+    width: 1440px;
+    height: 85px;
+  }
+  .acceuil7,
+  .inscription7,
+  .propos7,
+  .vnements7 {
+    width: 58px;
+    position: relative;
+    display: inline-block;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .inscription7,
+  .propos7,
+  .vnements7 {
+    width: 92px;
+  }
+  .inscription7,
+  .propos7 {
+    width: 77px;
+  }
+  .propos7 {
+    width: 65px;
+    font-size: var(--font-size-smi);
+  }
+  .acceuil-parent5 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 255px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .sign-up-otp-inner1 {
+    position: absolute;
+    top: 32px;
+    left: calc(50% - 613px);
+    width: 510px;
+    height: 21px;
+    font-family: var(--caption-regular);
+  }
+  .frame-1-65 {
+    position: absolute;
+    top: -118.7px;
+    left: 399.3px;
+    width: 454.5px;
+    height: 454.5px;
+    object-fit: contain;
+  }
+  .crer-un-compte6 {
+    position: absolute;
+    top: 174px;
+    left: 83px;
+    font-size: var(--font-size-21xl);
+    color: var(--dark-blue-jeans);
+  }
+  .input-text14,
+  .label14 {
+    position: relative;
+  }
+  .input-text14 {
+    font-size: var(--body-bold-size);
+  }
+  .label-parent12,
+  .text-field29 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .label-parent12 {
+    flex: 1;
+    height: 42px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-field29 {
+    width: 480px;
+    border-radius: var(--br-3xs);
+    background-color: var(--broken-white);
+    border: 1px solid var(--grey);
+    box-sizing: border-box;
+    height: 52px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-9xs) var(--padding-base);
+  }
+  .text-field28,
+  .text-field30 {
+    position: absolute;
+    left: 80px;
+    justify-content: flex-start;
+  }
+  .text-field28 {
+    top: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-field30 {
+    top: 350px;
+  }
+  .label-parent14,
+  .text-field30,
+  .text-field33 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .label-parent14 {
+    align-self: stretch;
+    height: 42px;
+    justify-content: flex-start;
+  }
+  .text-field33 {
+    width: 480px;
+    border-radius: var(--br-3xs);
+    background-color: var(--broken-white);
+    border: 1px solid var(--grey);
+    box-sizing: border-box;
+    height: 52px;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-base);
+  }
+  .supporting-text7 {
+    position: relative;
+    color: var(--dark-blue-jeans);
+  }
+  .text-field32 {
+    position: absolute;
+    top: 426px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .eye-icon4 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text-field34 {
+    position: absolute;
+    top: 524px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .crer-un-compte7 {
+    position: relative;
+    font-weight: 500;
+  }
+  .crer-un-compte-wrapper1 {
+    position: absolute;
+    top: 638px;
+    left: 80px;
+    border-radius: var(--br-3xs);
+    background-color: var(--dark-blue-jeans);
+    width: 480px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    font-size: var(--body-bold-size);
+    color: var(--broken-white);
+  }
+  .lock-1-13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-81xl);
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .vos-donnes-seront3 {
+    position: absolute;
+    top: 3px;
+    left: 32px;
+  }
+  .lock-1-1-parent1 {
+    position: absolute;
+    top: 714px;
+    left: 80px;
+    width: 526px;
+    height: 24px;
+    color: var(--color-black);
+  }
+  .sign-up-section5 {
+    position: absolute;
+    top: 65px;
+    left: 720px;
+    border-radius: var(--br-31xl) 0 0 var(--br-31xl);
+    background-color: var(--broken-white);
+    width: 720px;
+    height: 832px;
+    overflow: hidden;
+    font-size: var(--caption-regular-size);
+    color: var(--grey);
+  }
+  .group-6-42 {
+    position: absolute;
+    top: 355px;
+    left: 76px;
+    width: 573px;
+    height: 252px;
+    object-fit: cover;
+  }
+  .sign-up-otp-child3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-300);
+    width: 1440px;
+    height: 962px;
+  }
+  .logo-ticketed-icon1 {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    object-fit: cover;
+  }
+  .envoyer-le-code-container {
+    position: absolute;
+    top: 96px;
+    left: 71px;
+    border-radius: var(--br-3xs);
+    background-color: var(--dark-blue-jeans);
+    width: 240px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .nous-vous-enverrons1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    color: var(--dark-blue-jeans);
+    text-align: center;
+    display: inline-block;
+    width: 383px;
+  }
+  .frame-parent14 {
+    width: 383px;
+    position: relative;
+    height: 148px;
+  }
+  .logo-ticketed-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xl);
+  }
+  .hicon-bold-close,
+  .sign-up-otp-inner2 {
+    position: absolute;
+    top: 346px;
+    overflow: hidden;
+  }
+  .sign-up-otp-inner2 {
+    left: calc(50% - 215px);
+    border-radius: var(--br-mini);
+    background-color: var(--broken-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xl);
+    font-size: var(--body-bold-size);
+    color: var(--broken-white);
+  }
+  .hicon-bold-close {
+    position: absolute; /* Définir la position sur absolute */
+    left: 952px;
+    border-radius: var(--br-8xs);
+    width: 24px;
+    height: 24px;
+}
+
+  .sign-up-otp1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-chocolate);
+    height: 962px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--white);
+    font-family: var(--bold);
+  }
+  
