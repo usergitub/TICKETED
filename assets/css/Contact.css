@@ -1,0 +1,141 @@
+.apopos-child {
+    position: absolute;
+    top: 0;
+    left: 721px;
+    border-radius: var(--br-981xl) var(--br-8xs) var(--br-8xs) 0;
+    background-color: var(--color-gray-100);
+    width: 720px;
+    height: 962px;
+    display: none;
+  }
+  .acceuil10,
+  .inscription10,
+  .propos9,
+  .vnements9 {
+    width: 58px;
+    position: relative;
+    display: inline-block;
+    height: 21px;
+    flex-shrink: 0;
+  }
+  .inscription10,
+  .propos9,
+  .vnements9 {
+    width: 92px;
+  }
+  .inscription10,
+  .propos9 {
+    width: 77px;
+  }
+  .propos9 {
+    width: 65px;
+    font-size: var(--font-size-smi);
+  }
+  .acceuil-parent6 {
+    position: absolute;
+    top: 111px;
+    left: calc(50% - 255px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .group-6-26 {
+    position: absolute;
+    top: 94px;
+    left: 98px;
+    width: 128px;
+    height: 56.4px;
+    object-fit: cover;
+  }
+  .qui-somme-nous {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 150%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 514px;
+  }
+  .nous-sommes-une {
+    margin: 0;
+  }
+  .nous-sommes-une-container1 {
+    width: 100%;
+  }
+  .nous-sommes-une-container {
+    position: absolute;
+    top: 102px;
+    left: 4px;
+    font-size: var(--heading-h3-size);
+    line-height: 150%;
+    font-family: var(--caption-regular);
+    display: flex;
+    align-items: center;
+    width: 525px;
+    height: 186px;
+  }
+  .qui-somme-nous-parent {
+    position: absolute;
+    top: 386px;
+    left: 98px;
+    width: 529px;
+    height: 288px;
+    font-size: 52px;
+    font-family: var(--med);
+  }
+  .illus-ftb-icon {
+    position: absolute;
+    top: 68px;
+    left: 679px;
+    width: 760.9px;
+    height: 822.5px;
+    object-fit: cover;
+  }
+  .contact-me-button-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-31xl);
+    background-color: var(--dark-blue-jeans);
+    width: 207px;
+    height: 87px;
+  }
+  .je-minscris {
+    position: absolute;
+    top: 32px;
+    left: 43px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 24px;
+  }
+  .contact-me-button,
+  .download-resume-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 207px;
+    height: 87px;
+  }
+  .download-resume-button {
+    top: 699px;
+    left: 102px;
+    font-size: var(--headings-bold-24-size);
+    font-family: var(--font-oxygen);
+  }
+  .apopos {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-chocolate);
+    height: 891px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--text-white);
+    font-family: var(--caption-regular);
+  }
+  

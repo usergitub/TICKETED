@@ -2,196 +2,344 @@
 
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>TICKETED</title>
+    <title>Evenements-TICKETED</title>
 
-        <link rel="stylesheet" href="../css/global.css"/>
-        <link rel="stylesheet" href="../css/evenements.css">
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/evenements.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
-        />
-        <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
-        />
-        <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-        />
-      
-    </head>
+    <link rel="shortcut icon" href="/assets/images/Logo Icon 2.png" type="image/svg+xml">
 
-    <body class="desktop-6">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
 
-        <header class="header"> 
+</head>
 
-            <nav class="nav">
-                <img class="group-6-2" alt="" src="../images/logo.png" />
+<body class="desktop-6">
 
-                <ul class="acceuil-parent">
-                <li class="acceuil"><a href="/accueil.html">Accueil</a></li>
+    <header class="header">
+
+        <nav class="nav">
+            <img class="group-6-2" alt="" src="../images/logo.png" />
+
+            <ul class="acceuil-parent">
+                <li class="acceuil"><a href="#Accueil">Accueil</a></li>
                 <li class="vnements"><a href="../html/evenements.html">Evenements</a></li>
-                <li class="inscription"><a href="index.htlm">Inscription</a></li>
-                <li class="acceuil"><a href="#communaute">Contact</a></li>
-                <li class="propos"><a href="#inscription">A propos</a></li>
-                </ul>
-            </nav>
+                <li class="inscription"><a href="/inscription.html">Inscription</a></li>
+                <li class="acceuil"><a href="#Contact">Contact</a></li>
+                <li class="propos"><a href="#A propos">A propos</a></li>
+            </ul>
+        </nav>
 
-        </header>
+    </header>
 
-        <img class="desktop-5-item" alt="" src="../images/bg_stade.png" />
+    <img class="desktop-5-item" alt="" src="../images/bg_stade.png" />
 
-        <section class="latest-matches-parent">
-            
-            <div class="latest-matches">Latest Matches</div>
-            
-            <div class="rectangle-parent">
+    <section class="latest-matches-parent" id="latest-matches-1">
 
-                <div class="group-child"></div>
+        <div class="latest-matches">Lundi 18 Mars 2024 </div>
 
-                <div class="vs-parent">
-
-                    <div class="vs">VS</div>
-
-                    <img class="group-item" alt="" src="../images/Equipe_1.png">
-                    <div class="ny-yorks">Adjamer</div>
-
-                    <div class="ny-yorks1">FC Sol</div>
-                    <img class="group-inner" alt="" src="../images/Equipe_2.png">
-
-                </div>
-      
-                <img class="clock-8-2" alt="" src="../icone/clock.svg">
-                <div class="pm">5:00 PM</div>
-
-                <img class="map-pin-9-2" alt="" src="../icone/map.svg">
-                <div class="ebimp">Ebimpé</div>
-
-                <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
-                <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+        <button type="button" class="suivant" onclick="showNextMatch()">Suivant</button>
+        <button type="button" class="prcedent" onclick="showPreviousMatch()">Précédent</button>
 
 
-                <div class="line-div"></div>
-                <div class="ellipse-div"></div>
-                <div class="vs1">VS</div>
 
-                <img class="favorite-24px-1-icon" alt="" src="../icone/favorite.svg">
+
+
+        <div class="rectangle-parent">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/Mouna_fc.png">
+                <div class="ny-yorks">Mouna FC</div>
+
+                <div class="ny-yorks1">ASEC Mimosas</div>
+                <img class="group-inner" alt="" src="../images/Asec_fc.png">
 
             </div>
 
-            <div class="rectangle-group">
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">17h00 GMT</div>
 
-                <div class="group-child"></div>
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">S.O. Ebimpé</div>
 
-                <div class="vs-parent">
-
-                    <div class="vs">VS</div>
-
-                    <img class="group-item" alt="" src="../images/Equipe_1.png">
-                    <div class="ny-yorks">NY Yorks</div>
-
-                    <div class="ny-yorks1">FC Sol</div>
-                    <img class="group-inner" alt="" src="../images/Equipe_2.png">
-
-                </div>
-      
-                <img class="clock-8-2" alt="" src="../icone/clock.svg">
-                <div class="pm">5:00 PM</div>
-
-                <img class="map-pin-9-2" alt="" src="../icone/map.svg">
-                <div class="ebimp">Ebimpé</div>
-
-                <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
-                <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
 
 
-                <div class="line-div"></div>
-                <div class="ellipse-div"></div>
-                <div class="vs1">VS</div>
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
 
-                <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite.svg">
 
-            </div>
+        </div>
 
-            <div class="rectangle-container">
+        <div class="rectangle-group">
 
-                <div class="group-child"></div>
+            <div class="group-child"></div>
 
-                <div class="vs-parent">
+            <div class="vs-parent">
 
-                    <div class="vs">VS</div>
+                <div class="vs">VS</div>
 
-                    <img class="group-item" alt="" src="../images/Equipe_1.png">
-                    <div class="ny-yorks">NY Yorks</div>
+                <img class="group-item" alt="" src="../images/ASI d'Abengourou.png">
+                <div class="ny-yorks">ASI ABG</div>
 
-                    <div class="ny-yorks1">FC Sol</div>
-                    <img class="group-inner" alt="" src="../images/Equipe_2.png">
-
-                </div>
-      
-                <img class="clock-8-2" alt="" src="../icone/clock.svg">
-                <div class="pm">5:00 PM</div>
-
-                <img class="map-pin-9-2" alt="" src="../icone/map.svg">
-                <div class="ebimp">Ebimpé</div>
-
-                <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
-                <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
-
-                <div class="line-div"></div>
-                <div class="ellipse-div"></div>
-                <div class="vs1">VS</div>
-
-                <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+                <div class="ny-yorks1">FC San Pedro</div>
+                <img class="group-inner" alt="" src="../images/San Pedro.png">
 
             </div>
 
-            <div class="group-div">
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">14h30 GMT</div>
 
-                <div class="group-child"></div>
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">L.P. San Pedro</div>
 
-                <div class="vs-parent">
-
-                    <div class="vs">VS</div>
-
-                    <img class="group-item" alt="" src="../images/Equipe_1.png">
-                    <div class="ny-yorks">NY Yorks</div>
-
-                    <div class="ny-yorks1">FC Sol</div>
-                    <img class="group-inner" alt="" src="../images/Equipe_2.png">
-
-                </div>
-      
-                <img class="clock-8-2" alt="" src="../icone/clock.svg">
-                <div class="pm">5:00 PM</div>
-
-                <img class="map-pin-9-2" alt="" src="../icone/map.svg">
-                <div class="ebimp">Ebimpé</div>
-
-                <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
-                <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
 
 
-                <div class="line-div"></div>
-                <div class="ellipse-div"></div>
-                <div class="vs1">VS</div>
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
 
-                <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+
+        </div>
+
+        <div class="rectangle-container">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/Racing d'Abidjan.png">
+                <div class="ny-yorks">RCA</div>
+
+                <div class="ny-yorks1">Stade Abidjan</div>
+                <img class="group-inner" alt="" src="../images/Stade d'Abidjan.png">
 
             </div>
 
-        </section>
-    
-    </body>
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">17h30 GMT</div>
+
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">Stade FHB</div>
+
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
+
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+
+        </div>
+
+        <div class="group-div">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/Academie de FAD.png">
+                <div class="ny-yorks">AFAD</div>
+
+                <div class="ny-yorks1">Bouake</div>
+                <img class="group-inner" alt="" src="../images/Bouake.png">
+
+            </div>
+
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">20h00</div>
+
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">S.P. Bouaké</div>
+
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+
+
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
+
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+
+        </div>
+
+    </section>
+
+    <section class="latest-matches-parent" id="latest-matches-2">
+
+        <div class="latest-matches">Mercredi 20 Mars 2024 </div>
+
+        <button type="button" class="suivant" onclick="showNextMatch()">Suivant</button>
+        <button type="button" class="prcedent" onclick="showPreviousMatch()">Précédent</button>
+
+
+
+        <div class="rectangle-parent">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/AS Denguele.png">
+                <div class="ny-yorks">AS Denguele</div>
+
+                <div class="ny-yorks1">Korhogo</div>
+                <img class="group-inner" alt="" src="../images/Korhogo.png">
+
+            </div>
+
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">18h00 GMT</div>
+
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">Stade Korhogo</div>
+
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+
+
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
+
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite.svg">
+
+        </div>
+
+        <div class="rectangle-group">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/SOL.png">
+                <div class="ny-yorks">Sol FC</div>
+
+                <div class="ny-yorks1">LYS Sassandra</div>
+                <img class="group-inner" alt="" src="../images/Lys Sassandra.png">
+
+            </div>
+
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">14h30 GMT</div>
+
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">Stade FHB</div>
+
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+
+
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
+
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+
+        </div>
+
+        <div class="rectangle-container">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/SO Armee.png">
+                <div class="ny-yorks">SO Armee</div>
+
+                <div class="ny-yorks1">Zoman FC</div>
+                <img class="group-inner" alt="" src="../images/Zoman.png">
+
+            </div>
+
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">17h30 GMT</div>
+
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">S.L.P San Pedro</div>
+
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
+
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+
+        </div>
+
+        <div class="group-div">
+
+            <div class="group-child"></div>
+
+            <div class="vs-parent">
+
+                <div class="vs">VS</div>
+
+                <img class="group-item" alt="" src="../images/Stella Adjame.png">
+                <div class="ny-yorks">SC Adjame</div>
+
+                <div class="ny-yorks1">SC Gagnoa</div>
+                <img class="group-inner" alt="" src="../images/Sporting Gagnoa.png">
+
+            </div>
+
+            <img class="clock-8-2" alt="" src="../icone/clock.svg">
+            <div class="pm">20h00 GMT</div>
+
+            <img class="map-pin-9-2" alt="" src="../icone/map.svg">
+            <div class="ebimp">S.O Ebimpé</div>
+
+            <img class="arrow-right-12-2" alt="" src="../icone/right.svg">
+            <button class="commander" onclick="window.location.href='commander.html'">Commander</button>
+
+
+            <div class="line-div"></div>
+            <div class="ellipse-div"></div>
+            <div class="vs1">VS</div>
+
+            <img class="favorite-24px-1-icon" alt="" src="../icone/favorite_1.svg">
+
+        </div>
+
+    </section>
+
+    <script src="/assets/js/evenements.js"></script>
+
+</body>
 
 </html>

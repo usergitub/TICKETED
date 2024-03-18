@@ -327,3 +327,38 @@
     color: var(--color-darkgray-200);
     font-family: var(--font-roboto);
 }
+
+.rectangle-parent3 {
+    position: absolute;
+    top: 515px;
+    left: 0px;
+    width: 1080px;
+    height: 100px;
+    font-size: var(--font-size-smi);
+    color: var(--color-darkgray-100);
+    border-radius: var(--br-8xs);
+    background-color: var(--white);
+}
+
+
+.prcedent {
+    position: absolute;
+    top: 0;
+    left: 990px;
+    width: 91px;
+    height: 32px;
+    border-radius: 2px;
+    border-width: 2px;
+    background-color: var(--white);
+}
+
+.suivant {
+    position: absolute;
+    top: 0;
+    left: 890px;
+    width: 91px;
+    height: 32px;
+    border-radius: 2px;
+    border-width: 2px;
+    background-color: var(--white);
+}

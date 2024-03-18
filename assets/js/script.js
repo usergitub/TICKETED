@@ -8,7 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
   // Vérifier si l'email et le mot de passe sont corrects
   if (email === "manueltite12@gmail.com" && password === "azertyu") {
     // Rediriger vers la page d'accueil
-    window.location.href = "accueil.html";
+    window.location.href = "/assets/html/evenements.html";
   } else {
     // Afficher un message d'erreur en cas d'informations de connexion incorrectes
     alert("Email ou mot de passe incorrect !");
